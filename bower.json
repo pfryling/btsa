@@ -1,0 +1,29 @@
+{
+  "name": "btsa",
+  "version": "0.0.1",
+  "authors": [
+    "Paul Fryling <pfryling@gmail.com>"
+  ],
+  "homepage": "https://sdsubtsa.sdsu.edu",
+  "description": "AngularJS + Bootstrap Responsive Website",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.27",
+    "angular-bootstrap": "~0.11.2",
+    "angular-ui-router": "^0.2.13",
+    "bootstrap": "~3.2.0",
+    "font-awesome": "~4.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pfryling/btsa"
+  }
+}
