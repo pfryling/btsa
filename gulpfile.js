@@ -14,7 +14,9 @@ var gulp    = require('gulp'),
 var paths = {
   js: 'js/*.js',
   lib: 'lib/*.js',
+  css: 'css/*.css',
   fonts: 'fonts/**.*',
+  awesome_fonts: 'font-awesome-4.1.0/**/**.*',
   images: 'img/**/*.*',
   styles: 'less/*.less',
   index: 'index.html',
@@ -44,7 +46,7 @@ gulp.task('usemin', function() {
 /**
  * Copy assets
  */
-gulp.task('copy-assets', ['copy-images', 'copy-fonts', 'copy-bower_fonts', 'copy-html', 'copy-lib']);
+gulp.task('copy-assets', ['copy-images', 'copy-fonts','copy-css', 'copy-bower_fonts','copy-awesome_fonts', 'copy-html', 'copy-lib']);
 
 gulp.task('copy-images', function(){
   return gulp.src(paths.images)
@@ -54,6 +56,16 @@ gulp.task('copy-images', function(){
 gulp.task('copy-fonts', function(){
   return gulp.src(paths.fonts)
     .pipe(gulp.dest('dist/fonts'));
+});
+
+gulp.task('copy-css', function(){
+  return gulp.src(paths.css)
+    .pipe(gulp.dest('dist/css'));
+});
+
+gulp.task('copy-awesome_fonts', function(){
+  return gulp.src(paths.awesome_fonts)
+    .pipe(gulp.dest('dist/fonts/awesome-fonts'));
 });
 
 gulp.task('copy-bower_fonts', function(){

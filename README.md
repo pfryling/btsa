@@ -1,11 +1,42 @@
 # [Biomedical Technology Student Association Official Website](http://sdsubtsa.sdsu.edu/)
 
 ## Dependancies
-* [Node](http://nodejs.org/))`brew install node` 
-* [Gulp](http://gulpjs.com/))
+* [node](http://nodejs.org/)
+* [gulp](http://gulpjs.com/)`npm install -g gulp`
 * [bower](http://bower.io/)`npm install -g bower` 
 
-[Freelancer](http://startbootstrap.com/template-overviews/freelancer/) is a one page freelancer portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, and a working PHP contact form.
+The app was created using [Start Bootstrap](http://startbootstrap.com/).
+
+# Getting Started
+
+#### 1. Download [node](http://nodejs.org/download/):
+
+
+#### 2. Install gulp globally:
+
+```sh
+$ npm install -g gulp
+```
+
+#### 3. Install bower globally:
+
+```sh
+$ npm install -g bower
+```
+
+#### 4. Run gulp:
+
+```sh
+$ gulp
+```
+
+The default task will run and do nothing.
+
+Use the following URL to view your changes -> [homepage](http://localhost:8080/#/Home)
+
+
+
+
 
 ## Making changes to the look and feel
 1. Edit the variables.less file in /less
