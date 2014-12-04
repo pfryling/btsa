@@ -40,9 +40,7 @@ Use the following URL to view your changes -> [homepage](http://localhost:8080/#
 
 ## Making changes to the look and feel
 1. Edit the variables.less file in /less
-2. Compile using lessc 
-`lessc freelancer.less > /PATH/TO/css/freelancer.css`
-3. Reload and enjoy!
+2. Enjoy!
 
 ##Todo
 
