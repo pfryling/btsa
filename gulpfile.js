@@ -99,7 +99,7 @@ gulp.task('watch', function () {
 gulp.task('webserver', function() {
   connect.server({
     root: 'dist',
-    livereload: true
+    livereload: false
   });
 });
 

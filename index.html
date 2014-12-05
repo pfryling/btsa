@@ -45,9 +45,17 @@
     <!-- Custom Theme JavaScript -->
     <script src="js/freelancer.js"></script>
 
-    <!-- Custom Angular JS -->
+    <!-- build:js js/BTSA.js -->
     <script src="js/config.js"></script>
     <script src="js/routes.js"></script>
+    <script src="js/btsa/controllers/master-ctrl.js"></script>
+    <script src="js/btsa/controllers/alerts-ctrl.js"></script>
+    <script src="js/btsa/directives/loading.js"></script>
+    <script src="js/btsa/directives/widget-body.js"></script>
+    <script src="js/btsa/directives/widget.js"></script>
+    <script src="js/btsa/services/btsaService.js"></script>
+    <!-- endbuild -->
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -86,7 +94,7 @@
                         <a href="#about">About</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#leadership">Membership</a>
+                        <a href="#membership">Membership</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#events">Events</a>
@@ -100,7 +108,7 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle">Members <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#/Library" class=""fa fa-book> e-Library</a>
+                            <li><a href="#/Library" class="fa fa-book"> e-Library</a>
                             </li>
                             <li><a href="#/About" class="fa fa-university "> BTSA Resources</a>
                             </li>
@@ -108,7 +116,7 @@
                             </li>
                             <li><a href="#/Alumni" class="fa fa-graduation-cap "> Alumni</a>
                             </li>
-                            <li><a href="#/Contribute" class="fa fa-git"> Contributing</a>
+                            <li><a href="#/Contribute" class="fa fa-github"> Contributing</a>
                             </li>
                         </ul>
                     </li>

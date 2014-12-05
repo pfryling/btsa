@@ -12,23 +12,13 @@ angular.module('biotechnology')
         // For unmatched routes
         $urlRouterProvider.otherwise('/Home');
 
-// li><a href="#/Library">e-Library</a>
-//                             </li>
-//                             <li><a href="#/About">BTSA Resources</a>
-//                             </li>
-//                             <li><a href="#/Officers">Officers</a>
-//                             </li>
-//                             <li><a href="#/Alumni">Alumni</a>
-//                             </li>
-//                             <li><a href="#/Contribute">Contributing</a>
-//                             </li>
         // Application routes
         $stateProvider
 
         .state('home', {
             url: '/Home',
             templateUrl: 'templates/home.html',
-            deepStateRedirect: true
+            deepStateRedirect: true,
         })
 
         .state('about', {
@@ -64,6 +54,12 @@ angular.module('biotechnology')
         .state('contribute', {
             url: '/Contribute',
             templateUrl: 'templates/contribute.html',
+            deepStateRedirect: true
+        })
+
+        .state('signup', {
+            url: '/Signup',
+            templateUrl: 'templates/membership.html',
             deepStateRedirect: true
         })
 

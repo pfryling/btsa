@@ -42,7 +42,13 @@ Use the following URL to view your changes -> [homepage](http://localhost:8080/#
 1. Edit the variables.less file in /less
 2. Enjoy!
 
+##Help!
+
+#### 1. The screen keeps flashing at me.
+Download [node](http://nodejs.org/download/):
+
 ##Todo
 
-- fix live reload
-- add path to font awesome
+- Add images to homepage [sponsors, section banner]
+- Add updated info to officers.html
+- remove old styling from all files in templates
