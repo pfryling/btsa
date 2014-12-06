@@ -8,6 +8,6 @@ function MasterCtrl($scope, btsaDataService) {
 
 
 
-            $scope.clubSettings = btsaDataService.getSettings();
+            $scope.clubSettings = btsaDataService.getInfo();
  
 }

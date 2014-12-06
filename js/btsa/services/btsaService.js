@@ -1,18 +1,20 @@
 window.biotechnology.service('btsaDataService', ['$http', '$q',
     function($http, $q) {
 
-        var clubSettings = {
+        //This json object contains all the infomation used thoughout the website.
+        // Update meeting info and 
+        var clubInfo = {
             "officers": {
                 "president": {
-                    "name": "Jenny Watters",
-                    "email": "jwater@gmail.com",
-                    "blurb": "hi im jenny...",
-                    "quote": "quote stuff"
+                    "name": "Jenny Waters",
+                    "email": "jwater@gmail.com"
+      
                 },
-                "vice": "Joe Shmo",
+                "vice": "Harry Ho",
                 "tresurer": "Paul Fryling"
             },
             "meetinginfo": {
+                //These values get passed by the scope in our controller to the 
                 "time": "Monday at 5:30",
                 "location": "HH-130",
                 "semester": "Spring 2015"
@@ -20,8 +22,8 @@ window.biotechnology.service('btsaDataService', ['$http', '$q',
 
         };
 
-        this.getSettings = function() {
-            return clubSettings
+        this.getInfo = function() {
+            return clubInfo
         }
     }
 ]);
