@@ -2,7 +2,9 @@
 
 
 /**
- * Route configuration for the biotechnology module.
+ * Route configuration for the biotechnology module. This is where you can add new routes for our website. 
+ We use the angular ui-router to determine which html page to load given a URL. 
+ For more information check out this tutorial https://egghead.io/lessons/angularjs-introduction-ui-router.
  */
 angular.module('biotechnology')
 
@@ -18,7 +20,7 @@ angular.module('biotechnology')
         .state('home', {
             url: '/Home',
             templateUrl: 'templates/home.html',
-            deepStateRedirect: true,
+            deepStateRedirect: true
         })
 
         .state('about', {

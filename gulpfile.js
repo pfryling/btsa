@@ -88,7 +88,9 @@ gulp.task('copy-html', function(){
  * Watch src
  */
 gulp.task('watch', function () {
-  gulp.watch([paths.styles, paths.index, paths.js], ['usemin']);
+  gulp.watch([paths.index, paths.js], ['usemin']);
+  gulp.watch([paths.styles], ['compile-less']);
+  gulp.watch([paths.css], ['copy-css']);
   gulp.watch([paths.js], ['scripts']);
   gulp.watch([paths.images], ['copy-images']);
   gulp.watch([paths.views], ['copy-html']);
@@ -113,9 +115,10 @@ gulp.task('livereload', function() {
  * Compile less
  */
 gulp.task('compile-less', function(){
-  return gulp.src('less/*.less')
+  return gulp.src('less/freelancer.less')
       .pipe(less())
-      .pipe(gulp.dest('dist/css'));
+      .pipe(rename('freelancer.css'))
+      .pipe(gulp.dest('./css/'));
 });
 
 gulp.task('clean', function () {

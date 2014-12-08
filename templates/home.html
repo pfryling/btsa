@@ -55,10 +55,10 @@
             <div ng-controller="MasterCtrl">
                 <p>
 
-                    Meetings for the {{clubSettings.meetinginfo.semester}} semester are held every {{clubSettings.meetinginfo.time}}, in {{clubSettings.meetinginfo.location}}. All majors are invited to join the club.
-                            If you can not make the meeting time listed above, but would still like to join the club for our awesome company tours and networking events, you can become a member by attending 5 of our events 
-                           <div class="col-xs-12 text-center"> <a href="#/Signup">JOIN NOW </a></div>
-                        </div>
+                    Meetings for the {{clubSettings.meetinginfo.semester}} semester are held every {{clubSettings.meetinginfo.time}}, in {{clubSettings.meetinginfo.location}}. All majors are invited to join the club. If you can not make the meeting time listed above, but would still like to join the club for our awesome company tours and networking events, you can become a member by attending 5 of our events
+                    <div class="col-lg-12 text-center"> <a href="#/Signup">JOIN NOW </a>
+                    </div>
+            </div>
         </div>
     </div>
 </section>
@@ -74,7 +74,7 @@
             <div class="col-lg-12 text-center">
                 <p>The BTSA club has organized trips to visit companies including Illumina, Life Technologies, and Eli Lily. The composition of our club is very diverse with both undergraduate and graduate students, and members majoring in computer science, biology, bio-engineering, chemistry and bioinformatics.
 
-                    <br> For more events check out <a style="color:white" href="#/Events"> our events page</a>.
+                    <br> For more events check out <a class="btsa-link" href="#/Events"> our events page</a>.
                     <div class="responsive-iframe-container">
                         <!--  <iframe src="https://www.google.com/calendar/embed?height=600&amp;src=sdsubtsa%40gmail.com&amp;mode=AGENDA&amp;ctz=America%2FLos_Angeles" height="315" width="560" frameborder="0" scrolling="no" title="BTSACalendar"> Upcoming Events </iframe> -->
                         <!-- <iframe src="https://docs.google.com/forms/d/1vdln-OijUU7V2LyfBaEqRhORx5iwWrbVby1IAUm4zzU/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe> -->
@@ -148,8 +148,25 @@
                 <hr class="star-light">
             </div>
             <div class="col-lg-12 text-center">
-                A big thank you to our sponsors!
-
+                <div class="container marketing">
+                    <h3>A big thank you to our sponsors!</h3>
+                </div>
+                <div class="col-lg-4">
+                    <img class="img-responsive" src="img/sponsors/ThermoFisher_logo.png">
+                </div>
+                <div class="col-lg-4">
+                    <img class="img-responsive" src="img/sponsors/your_logo.gif">
+                </div>
+                <div class="col-lg-4">
+                    <img class="img-responsive" src="img/sponsors/your_logo.gif">
+                </div>
+            </div>
+            <div class="col-lg-12 text-center">
+                <div ng-controller="MasterCtrl">
+                <p> Interested in becoming a sponsor? Contact {{clubSettings.president.name}} at {{clubSettings.president.email}}. Or check out our sponsor page below.
+                
+                 <br>   <a href="#/Signup" class="btsa-link"> Become a corperate sponsor</a>
+                 </div>
             </div>
         </div>
     </div>
