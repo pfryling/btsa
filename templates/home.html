@@ -55,8 +55,10 @@
             <div ng-controller="MasterCtrl">
                 <p>
 
-                    Meetings for the {{clubSettings.meetinginfo.semester}} semester are held every {{clubSettings.meetinginfo.time}}, in {{clubSettings.meetinginfo.location}}. All majors are invited to join the club. If you can not make the meeting time listed above, but would still like to join the club for our awesome company tours and networking events, you can become a member by attending 5 of our events
-                    <div class="col-lg-12 text-center"> <a href="#/Signup">JOIN NOW </a>
+                    Meetings for the {{clubSettings.meetinginfo.semester}} semester are held every {{clubSettings.meetinginfo.time}}, in {{clubSettings.meetinginfo.location}}. All majors are invited to join the club. If you can not make the meeting time listed above, but would still like to join the club for our awesome company tours and networking events, you can become a member by attending 5 of our events.
+                    <div class="col-lg-12 text-center"> 
+
+            <a href="#/Signup" class="btn btn-primary btn-large">Join Now </a>
                     </div>
             </div>
         </div>
@@ -155,18 +157,16 @@
                     <img class="img-responsive" src="img/sponsors/ThermoFisher_logo.png">
                 </div>
                 <div class="col-lg-4">
-                    <img class="img-responsive" src="img/sponsors/your_logo.gif">
+                    <img class="img-responsive" src="img/sponsors/ThermoFisher_logo.png">
                 </div>
                 <div class="col-lg-4">
-                    <img class="img-responsive" src="img/sponsors/your_logo.gif">
+                    <img class="img-responsive" src="img/sponsors/ThermoFisher_logo.png">
                 </div>
             </div>
+
             <div class="col-lg-12 text-center">
-                <div ng-controller="MasterCtrl">
-                <p> Interested in becoming a sponsor? Contact {{clubSettings.president.name}} at {{clubSettings.president.email}}. Or check out our sponsor page below.
-                
-                 <br>   <a href="#/Signup" class="btsa-link"> Become a corperate sponsor</a>
-                 </div>
+                <br>
+                <a href="#/Sponsor" class="btn btn-primary btn-large"> Become a corperate sponsor</a>
             </div>
         </div>
     </div>

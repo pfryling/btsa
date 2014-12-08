@@ -65,6 +65,12 @@ angular.module('biotechnology')
             deepStateRedirect: true
         })
 
+        .state('sponsor', {
+            url: '/Sponsor',
+            templateUrl: 'templates/sponsor.html',
+            deepStateRedirect: true
+        })
+
         .state('photos', {
             url: '/Photos',
             templateUrl: 'templates/photos.html',

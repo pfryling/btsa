@@ -20,6 +20,7 @@ var paths = {
   images: 'img/**/*.*',
   styles: 'less/*.less',
   index: 'index.html',
+  angular: 'js/btsa/*/*.js',
   views: 'templates/*.html',
   bower_fonts: 'bower_components/**/*.{ttf,woff,eof,svg}',
   bower_components: 'bower_components/**/*.*',
@@ -92,6 +93,7 @@ gulp.task('watch', function () {
   gulp.watch([paths.styles], ['compile-less']);
   gulp.watch([paths.css], ['copy-css']);
   gulp.watch([paths.js], ['scripts']);
+  gulp.watch([paths.angular], ['build']);
   gulp.watch([paths.images], ['copy-images']);
   gulp.watch([paths.views], ['copy-html']);
   gulp.watch([paths.fonts], ['copy-fonts']);
@@ -126,5 +128,5 @@ gulp.task('clean', function () {
         .pipe(clean());
 });
 
-gulp.task('build', ['usemin', 'copy-assets']);
+gulp.task('build', ['usemin', 'copy-assets', 'livereload']);
 gulp.task('default', ['scripts', 'compile-less','build', 'webserver', 'livereload', 'watch']);

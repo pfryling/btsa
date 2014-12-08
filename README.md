@@ -36,10 +36,8 @@ Use the following URL to view your changes -> [homepage](http://localhost:8080/#
 
 
 
-
-
-## Making changes to the look and feel
-#You can use [Less](http://lesscss.org/) to make changes to our layout
+##Changing the layout of the website
+Using [Less](http://lesscss.org/) makes it easy to create changes
 
 1. Edit the variables.less file in /less
 2. Enjoy!

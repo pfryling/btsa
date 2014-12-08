@@ -10,7 +10,7 @@ function($http, $q) {
     var clubInfo = {
             "president": {
                 "name": "Jenny Waters",
-                "email": "jwater@gmail.com"
+                "email": "watersjen1@hotmail.com"
 
             },
             "vice": {

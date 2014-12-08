@@ -355,6 +355,12 @@ footer .footer-below {
 .btn.active {
   outline: none;
 }
+.btn-primary {
+  background-color: #000000;
+}
+.btn-primary:hover {
+  opacity: 0.9;
+}
 .scroll-top {
   position: fixed;
   right: 2%;
@@ -429,7 +435,7 @@ footer .footer-below {
   z-index: 1052;
 }
 .btsa-link {
-  color: white;
+  color: #ffffff;
 }
 .btsa-link:hover {
   color: black;
