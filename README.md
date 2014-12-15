@@ -9,7 +9,7 @@ The app was created using [Start Bootstrap](http://startbootstrap.com/).
 
 # Getting Started
 
-#### 1. Set up [Git](https://help.github.com/articles/set-up-git/#setting-up-git)
+#### 1. Set up [Git](https://help.github.com/articles/set-up-git/#setting-up-git):
 
 #### 2. Download [node](http://nodejs.org/download/):
 
