@@ -1,5 +1,5 @@
 <div class="success">
-    <div class="col-lg-12">
+    <div class="col-lg-12" ng-controller="MasterCtrl">
         <h3>Mission Statement</h3>
         <p> The purpose of this organization is to:
             <ul>
@@ -14,13 +14,13 @@
             </ul>
 
             <p>
-                With insightful guest speakers, developmental workshops and tours of local industry, the BTSA provides a unique opportunity for students at San Diego State University. The BTSA is a great way to learn about available internships, network with employers, and discover exciting career opportunities in specialized fields you may not have previously considered. The BTSA club has organized trips to visit companies including JCVI, Tandem Diabetes, and CareFusion. The composition of our club is very diverse with both undergraduate and graduate students, and members majoring in computer science, biology, bio-engineering, chemistry and bioinformatics.
+                 The BTSA is a great way to learn about internships, network with employers, and discover exciting career opportunities in exciting fields you may not have previously considered. The BTSA club has organized trips to visit companies including <a target="_blank" href="http://www.illumina.com"> Illumina</a>, <a target="_blank" href="http://www.jcvi.org">JCVI</a>, <a target="_blank" href="http://www.tandemdiabetes.com">Tandem Diabetes</a>, and <a target="_blank" href="http://www.carefusion.com">CareFusion</a>.
 
-                <p>The BTSA meets every Monday at 5:30 in Storm Hall West - 012.
+                <p>Meetings for the {{clubSettings.meetinginfo.semester}} semester are held every {{clubSettings.meetinginfo.time}}, in {{clubSettings.meetinginfo.location}}.
 
 
                     <p>
                         Contact
-                        <strong>Jennifer Fouquier</strong> at <a href="mailto:sdsubtsa@gmail.com?subject=BTSA Biotechnology Club"> SDSUBTSA@gmail.com</a> for more information or any questions you may have.
+                        <strong>{{clubSettings.president.name}}</strong> at <a href="mailto:sdsubtsa@gmail.com?subject=BTSA Biotechnology Club"> SDSUBTSA@gmail.com</a> for more information or if you have any questions.
     </div>
 </div>

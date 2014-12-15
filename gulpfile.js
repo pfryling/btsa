@@ -17,10 +17,11 @@ var paths = {
   css: 'css/*.css',
   fonts: 'fonts/**.*',
   awesome_fonts: 'font-awesome-4.1.0/**/**.*',
+  mail: 'mail/*.php',
   images: 'img/**/*.*',
   styles: 'less/*.less',
   index: 'index.html',
-  angular: 'js/btsa/*/*.js',
+  angular: 'js/btsa/**/*.js',
   views: 'templates/*.html',
   bower_fonts: 'bower_components/**/*.{ttf,woff,eof,svg}',
   bower_components: 'bower_components/**/*.*',
@@ -47,11 +48,16 @@ gulp.task('usemin', function() {
 /**
  * Copy assets
  */
-gulp.task('copy-assets', ['copy-images', 'copy-fonts','copy-css', 'copy-bower_fonts','copy-awesome_fonts', 'copy-html', 'copy-lib']);
+gulp.task('copy-assets', ['copy-images', 'copy-fonts','copy-css', 'copy-bower_fonts','copy-awesome_fonts', 'copy-html', 'copy-lib', 'copy-mail']);
 
 gulp.task('copy-images', function(){
   return gulp.src(paths.images)
     .pipe(gulp.dest('dist/img'));
+});
+
+gulp.task('copy-mail', function(){
+  return gulp.src(paths.mail)
+    .pipe(gulp.dest('dist/mail'));
 });
 
 gulp.task('copy-fonts', function(){

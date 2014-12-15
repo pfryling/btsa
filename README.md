@@ -9,22 +9,24 @@ The app was created using [Start Bootstrap](http://startbootstrap.com/).
 
 # Getting Started
 
-#### 1. Download [node](http://nodejs.org/download/):
+#### 1. Set up [Git](https://help.github.com/articles/set-up-git/#setting-up-git)
+
+#### 2. Download [node](http://nodejs.org/download/):
 
 
-#### 2. Install gulp globally:
+#### 3. Install gulp:
 
 ```sh
 $ npm install -g gulp
 ```
 
-#### 3. Install bower globally:
+#### 4. Install bower:
 
 ```sh
 $ npm install -g bower
 ```
 
-#### 4. Run gulp:
+#### 5. Type gulp in the command line:
 
 ```sh
 $ gulp
