@@ -5,22 +5,26 @@
 * [gulp](http://gulpjs.com/)`npm install -g gulp`
 * [bower](http://bower.io/)`npm install -g bower` 
 
-The app was created using [Start Bootstrap](http://startbootstrap.com/).
+This app was created using [angularjs](https://angularjs.org/), [jquery](http://jquery.com/) and [php](http://php.net/manual/en/intro-whatis.php).
+
+If you are unfamilar with git, check out this [resource](http://git-scm.com/book/en/v1/Getting-Started)
 
 # Getting Started
 
-#### 1. [Download the website](https://github.com/pfryling/btsa/archive/master.zip):
+#### 1. Download our site [here](https://github.com/pfryling/btsa/archive/master.zip):
 
 #### 2. Download [node](http://nodejs.org/download/):
 
 
 #### 3. Install gulp:
+You may need to use sudo (for OSX, *nix, BSD etc) or run your command shell as Administrator (for Windows) to do this.
 
 ```sh
 $ npm install -g gulp
 ```
 
 #### 4. Install bower:
+You may need to use sudo (for OSX, *nix, BSD etc) or run your command shell as Administrator (for Windows) to do this.
 
 ```sh
 $ npm install -g bower
