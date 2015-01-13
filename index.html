@@ -113,7 +113,7 @@
                         <ul class="dropdown-menu">
                             <li><a href="#/Library" class="fa fa-book"> e-Library</a>
                             </li>
-                            <li><a href="#/About" class="fa fa-university "> BTSA Resources</a>
+                            <li><a href="#/Resources" class="fa fa-university "> BTSA Resources</a>
                             </li>
                             <li><a href="#/Officers" class="fa fa-group"> Officers</a>
                             </li>
@@ -137,13 +137,13 @@
 
 
     <!-- Footer -->
-    <footer class="text-center">
+    <footer class="text-center" ng-cloak>
         <div class="footer-above">
             <div class="container">
                 <div class="row">
-                    <div class="footer-col col-md-4">
+                    <div class="footer-col col-md-4" ng-controller="MasterCtrl">
                         <h3>Location</h3>
-                        <p>Hepner Hall 130
+                        <p>{{clubSettings.meetinginfo.location}}
                             <br>5050 Campinelle Drive
                             <br>San Diego, CA 90210</p>
                     </div>
@@ -177,6 +177,12 @@
             </div>
         </div>
     </footer>
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visble-sm">
+        <a class="btn btn-primary" style="background-color: #000" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
 
 </body>
 

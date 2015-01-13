@@ -47,6 +47,12 @@ angular.module('biotechnology')
             deepStateRedirect: true
         })
 
+        .state('resources', {
+            url: '/Resources',
+            templateUrl: 'templates/resources.html',
+            deepStateRedirect: true
+        })
+
         .state('alumni', {
             url: '/Alumni',
             templateUrl: 'templates/alumni.html',
@@ -60,7 +66,7 @@ angular.module('biotechnology')
         })
 
         .state('signup', {
-            url: '/Signup',
+            url: '/Membership',
             templateUrl: 'templates/membership.html',
             deepStateRedirect: true
         })
