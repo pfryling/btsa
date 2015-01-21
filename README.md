@@ -52,6 +52,6 @@ Using [Less](http://lesscss.org/) makes it easy to create changes
 
 ##Todo
 
-- Add images to homepage [sponsors, section banner]
-- Add updated info to officers.html
-- remove old styling from all files in templates
+- Add updated info to officers.html (this information can be found on the current site sdsubtsa.sdsu.edu)
+- reach out to past leadership to get details to add to alumni section
+- create google group and add link to footer
