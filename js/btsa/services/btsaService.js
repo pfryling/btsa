@@ -23,7 +23,7 @@ function($http, $q) {
             },
             "meetinginfo": {
                 "time": "Monday at 5:30",
-                "location": "Hepner Hall 130",
+                "location": "PS 130",
                 "semester": "Spring 2015"
             }
 

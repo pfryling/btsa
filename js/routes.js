@@ -1,10 +1,10 @@
 'use strict';
 
 
-/**
- * Route configuration for the biotechnology module. This is where you can add new routes for our website. 
- We use the angular ui-router to determine which html page to load given a URL. 
- For more information check out this tutorial https://egghead.io/lessons/angularjs-introduction-ui-router.
+/*
+ * Route configuration for the biotechnology website. This is where you can add new pages to our website. 
+ * We use angular ui-router to determine which html page to load when a browser navigates to a given URL. 
+ * For more information check out this tutorial https://egghead.io/lessons/angularjs-introduction-ui-router.
  */
 angular.module('biotechnology')
 
