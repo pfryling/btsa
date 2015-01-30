@@ -442,3 +442,8 @@ footer .footer-below {
 .btsa-link:hover {
   color: black;
 }
+.thumbnail {
+  width: 375px;
+  height: 550px;
+  overflow: auto;
+}
