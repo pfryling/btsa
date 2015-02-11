@@ -38,7 +38,8 @@ angular.module('biotechnology')
         .state('officers', {
             url: '/Officers',
             templateUrl: 'templates/officers.html',
-            deepStateRedirect: true
+            deepStateRedirect: true,
+            controller: 'MasterCtrl'
         })
 
         .state('library', {
