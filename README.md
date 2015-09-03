@@ -30,12 +30,16 @@ You may need to use sudo (for OSX, *nix, BSD etc) or run your command shell as A
 $ npm install -g bower
 ```
 
-#### 5. Type gulp in the command line:
+#### 5. Install additional project dependancies:
+
+```sh
+$ npm install
+```
+#### 6. Type gulp in the command line:
 
 ```sh
 $ gulp
 ```
-
 The default task will run and do nothing.
 
 Use the following URL to view your changes -> [homepage](http://localhost:8080/#/Home)
