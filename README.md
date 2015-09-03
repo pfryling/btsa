@@ -40,7 +40,10 @@ The default task will run and do nothing.
 
 Use the following URL to view your changes -> [homepage](http://localhost:8080/#/Home)
 
-
+## Updating Club Information (Location, Semesters, Contacts, etc...)
+1. Access the rohan server by talking with the current or previous club webmaster
+2. Open the BTSA.js file in /public_html/js/BTSA.js
+3. Edit the bottom of the file next to "clubInfo"
 
 ##Changing the layout of the website
 Using [Less](http://lesscss.org/) makes it easy to create changes
