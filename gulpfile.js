@@ -1,6 +1,5 @@
 var gulp    = require('gulp'),
   less      = require('gulp-less'),
-  usemin    = require('gulp-usemin'),
   wrap      = require('gulp-wrap'),
   connect   = require('gulp-connect'),
   watch     = require('gulp-watch'),
@@ -37,13 +36,6 @@ gulp.task('scripts', function() {
     });
 
 
-gulp.task('usemin', function() {
-  return gulp.src(paths.index)
-    .pipe(usemin({
-      less: ['concat', less()],
-    }))
-    .pipe(gulp.dest('dist/'))
-});
 
 /**
  * Copy assets
@@ -95,7 +87,6 @@ gulp.task('copy-html', function(){
  * Watch src
  */
 gulp.task('watch', function () {
-  gulp.watch([paths.index, paths.js], ['usemin']);
   gulp.watch([paths.styles], ['compile-less']);
   gulp.watch([paths.css], ['copy-css']);
   gulp.watch([paths.js], ['scripts']);
@@ -134,5 +125,5 @@ gulp.task('clean', function () {
         .pipe(clean());
 });
 
-gulp.task('build', ['usemin', 'copy-assets', 'livereload']);
+gulp.task('build', ['copy-assets', 'livereload']);
 gulp.task('default', ['scripts', 'compile-less','build', 'webserver', 'livereload', 'watch']);

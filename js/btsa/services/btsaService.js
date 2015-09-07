@@ -13,18 +13,18 @@ function($http, $q) {
     ///////////////////////////////
     var clubInfo = {
             "president": {
-                "name": "Jenny Waters",
-                "email": "watersjen1@hotmail.com"
+                "name": "Martin Somo",
+                "email": "somomartin@yahoo.com"
 
             },
             "vice": {
-                "name": "Harry Ho",
-                "email": "h3penguin@gmail.com"
+                "name": "Michelle Pinchart",
+                "email": "sdsubtsa@gmail.com"
             },
             "meetinginfo": {
                 "time": "Monday at 5:30",
-                "location": "PS 130",
-                "semester": "Spring 2015"
+                "location": "HH 130",
+                "semester": "Fall 2015"
             }
 
     };
